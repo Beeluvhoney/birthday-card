@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Birthday Greetings Card</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+   <div id="greeting-card" class="card">
+        <h1>Happy Birthday, Deevah!</h1>
+        <p class="message">Wishing you a wonderful birthday and many more years of happiness!</p>
+        <p class="message">Enjoy your special day!</p> 
+        <div class="card-links">
+            <a href="#send-message" class="send-link">Send card with selected gifts</a>
+            <a href="#share-message" class="share-link">Share on social media</a>
+        </div>    
+   </div>
+    <div class="gifts">
+        <h2>Choose your gifts:</h2>
+        <div class="gift">
+            <input type="checkbox" id="gift1">
+            <label for="gift1">Chocolate Cake 🎂</label>
+        </div>
+        <div class="gift">
+            <input type="checkbox" id="gift2">
+            <label for="gift2">Bouquet of Flowers 🌺</label>
+        </div>
+        <div class="gift">
+            <input type="checkbox" id="gift3">
+            <label for="gift3">Jewelry 💎</label>
+        </div>
+        <div class="gift">
+            <input type="checkbox" id="gift4">
+            <label for="gift4">Gift Card 💳</label>
+        </div>
+        <div class="gift">
+            <input type="checkbox" id="gift5">
+            <label for="gift5">Eid Dress 👗</label>
+        </div>
+       
+    </div>
+    <section id="send-message">
+    <p class="card-send">Card and gifts successfully sent to recipient!</p>
+    </section>
+    <section id="share-message">
+     <p class="card-shared">Card successfully shared on social media!</p>
+    </section>
+</body>
+</html>
